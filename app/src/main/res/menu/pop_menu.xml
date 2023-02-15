@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/GroupOne"
+        android:checkableBehavior="single">
+    <item android:id="@+id/menuSearch"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"/>
+    </group>
+    <group
+        android:id="@+id/GroupTwo"
+        android:checkableBehavior="single">
+    <item android:id="@+id/menuBookmark"
+        android:title="@string/BookMarks"
+        android:icon="@drawable/ic_baseline_bookmark_24"/>
+    </group>
+    <group
+        android:id="@+id/GroupThree"
+        android:checkableBehavior="single">
+    <item android:id="@+id/menuAbout"
+        android:title="@string/About"
+        android:icon="@drawable/ic_baseline_info_24"/>
+    </group>
+</menu>
