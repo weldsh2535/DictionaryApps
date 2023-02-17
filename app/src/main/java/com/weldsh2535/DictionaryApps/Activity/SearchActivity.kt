@@ -37,7 +37,7 @@ class SearchActivity : AppCompatActivity() {
         //  initialise(view)
 
         database = DbHelper.getDatabase()
-       // database.createDictionary(createSearchList())
+        //database.createDictionary(createSearchList())
         adapter = SearchAdapter(query, database.getAllDictionarys(), this)
         recycler_view.adapter = adapter
         recycler_view.setOnScrollListener(object : RecyclerView.OnScrollListener() {
